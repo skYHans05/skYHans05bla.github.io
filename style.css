@@ -24,15 +24,15 @@ html {
 /* FONT CUSTOM */
 @font-face {
   font-family: blanch;
-  src: url('../fonts/BLANCH CAPS.otf');
+  src: url('skYHans05.github.io/BLANCH CAPS.otf');
 }
 @font-face {
   font-family: duke;
-  src: url('../fonts/Duke Fill.otf');
+  src: url('skYHans05.github.io/Duke Fill.otf');
 }
 @font-face {
   font-family: oswald;
-  src: url('../fonts/Oswald-Light.ttf');
+  src: url('skYHans05.github.io/Oswald-Light.ttf');
 }
 /* RESET */
 * {
