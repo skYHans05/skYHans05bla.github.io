@@ -29,7 +29,7 @@ function putarImg() {
         clearInterval;
         return
       }
-      imgComputer.setAttribute('src', "img/" + kelas[x++] + ".png");
+      imgComputer.setAttribute('src', "skYHans05.github.io/" + kelas[x++] + ".png");
       if (x == kelas.length) x = 0;
     }, 100);
 }
@@ -50,7 +50,7 @@ imgPlayer.forEach(function(pilihan){
       const comp = pilihanComputer();
       const player = pilihan.className;
       const hasil = hasilPermainan(comp, player);
-      imgComputer.setAttribute('src', 'img/' + comp + ".png");
+      imgComputer.setAttribute('src', 'skYHans05.github.io/' + comp + ".png");
       tampilHasil.innerHTML = hasil;
       if (hasil == 'menang') {
         nilai = 5;
