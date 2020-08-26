@@ -1,0 +1,164 @@
+/* SET BACKGROUND */
+html {
+  background-color: #3F7AC8;
+}
+.bg-warna {
+  background-color: #385984;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 50%;
+  border-bottom: 10px solid white;
+  z-index: -9;
+}
+/* ANIMASI */
+@keyframes klik {
+  0% {
+    border: 10px solid salmon;
+  }
+  100% {
+    border: 15px solid salmon;
+  }
+}
+/* FONT CUSTOM */
+@font-face {
+  font-family: blanch;
+  src: url('../fonts/BLANCH CAPS.otf');
+}
+@font-face {
+  font-family: duke;
+  src: url('../fonts/Duke Fill.otf');
+}
+@font-face {
+  font-family: oswald;
+  src: url('../fonts/Oswald-Light.ttf');
+}
+/* RESET */
+* {
+  font-size: 22px;
+}
+
+/* nama-computer */
+.nama-computer {
+  position: fixed;
+  left: 20px;
+  right: 0px;
+  top: 20px;
+  height: 300px;
+  width: 100%;
+}
+.nama-computer p {
+  font-size: 4.5em;
+  display: block;
+  font-family: blanch;
+  color: white;
+  position: fixed;
+  top: -95px;
+  left: 135px;
+}
+.bulatHijau {
+  background: #34C455;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* PILIHAN-COMPUTER */
+.pilihan-computer {
+  width: 450px;
+  height: 450px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 8px solid white;
+  margin: 140px auto;
+  background: #3F7AC8;
+}
+.pilihan-computer img {
+  width: 100%;
+  height: 100%;
+}
+/* HASIL */
+.hasil {
+  background: white;
+  border-radius: 12px;
+  width: 450px;
+  height: 120px;
+  text-align: center;
+  margin: 1px auto;
+  margin-top: -40px;
+}
+.hasil p {
+  font-family: duke;
+  font-size: 4em;
+  color: #1C93D7;
+  line-height: 120px;
+  letter-spacing: 2px;
+}
+/* PILIHAN PLAYER */
+.bingkai {
+  width: 750px;
+  margin: 150px auto;
+}
+.bingkai img {
+  width: 100%;
+  height: 100%;
+}
+.bingkai p {
+  font-size: 2.5em;
+  color: white;
+  font-family: oswald;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+.pilihan-player {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.gunting-box, .batu-box, .kertas-box {
+  background: #385984;
+  border: 8px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 15px;
+  width: 30%;
+}
+.gunting-box:active {
+  border:  8px dashed salmon;
+}
+.kertas-box:active {
+  border: 8px dashed salmon;
+}
+.batu-box:active {
+  border: 8px dashed salmon;
+}
+/* NAMA PLAYER */
+.nama-player {
+ position: fixed;
+ bottom: 20px;
+ right: 0px;
+}
+.nama-player p {
+ font-size: 4.5em;
+ display: block;
+ font-family: blanch;
+ color: white;
+ position: fixed;
+ bottom: -85px;
+ right: 125px;
+ }
+ .right {
+   float: right;
+ }
+ .score p {
+   font-size: 4.5em;
+   display: block;
+   font-family: blanch;
+   color: white;
+   position: fixed;
+   bottom: -85px;
+   left: 40px;
+ }
