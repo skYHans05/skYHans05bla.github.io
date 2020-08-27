@@ -51,7 +51,7 @@ html {
 .nama-computer p {
   font-size: 4.5em;
   display: block;
-  font-family: blanch;
+  font-family: 'Roboto', sans-serif;
   color: white;
   position: fixed;
   top: -95px;
