@@ -49,7 +49,7 @@ html {
   width: 100%;
 }
 .nama-computer p {
-  font-size: 4.5em;
+  font-size: 4em;
   display: block;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -142,7 +142,7 @@ html {
  right: 0px;
 }
 .nama-player p {
- font-size: 4.5em;
+ font-size: 4em;
  display: block;
  font-family: blanch;
  color: white;
@@ -154,7 +154,7 @@ html {
    float: right;
  }
  .score p {
-   font-size: 4.5em;
+   font-size: 4em;
    display: block;
    font-family: blanch;
    color: white;
